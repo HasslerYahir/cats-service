@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-03-06T02:52:36" hostname="DESKTOP-0TSEDKM" time="0.114">
+  <properties/>
+  <testcase name="testBreedsError()" classname="com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest" time="0.065"/>
+  <testcase name="testBreedsByQuerySuccess()" classname="com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest" time="0.019"/>
+  <testcase name="testBreedByIdError()" classname="com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest" time="0.009"/>
+  <testcase name="testBreedsSuccess()" classname="com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest" time="0.007"/>
+  <testcase name="testBreedByIdSuccess()" classname="com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest" time="0.006"/>
+  <system-out><![CDATA[2024-03-05T21:52:36.706-05:00  INFO 14248 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest]: BreedApiTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-05T21:52:36.737-05:00  INFO 14248 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.xpergroup.servicesCats.ServicesCatsApplication for test class com.xpergroup.servicesCats.infrastructure.out.rest.BreedApiTest
+2024-03-05T21:52:36.790-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : Starting API call to fetch all breeds
+2024-03-05T21:52:36.792-05:00 ERROR 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : Error in API call to fetch all breeds. Body: null Status: 500 INTERNAL_SERVER_ERROR
+2024-03-05T21:52:36.815-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : API call to fetch breeds by query completed. Body: [com.xpergroup.servicesCats.application.mappers.dto.BreedDTO@7833407] Status: 200 OK
+2024-03-05T21:52:36.834-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : Starting API call to fetch breed by id 1 at url 
+2024-03-05T21:52:36.835-05:00 ERROR 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : Error in API call to fetch breed by id. Body: null Status: 404 NOT_FOUND
+2024-03-05T21:52:36.845-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : Starting API call to fetch all breeds
+2024-03-05T21:52:36.846-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : API call to fetch all breeds completed. Body: [com.xpergroup.servicesCats.application.mappers.dto.BreedDTO@16c1345b] Status: 200 OK
+2024-03-05T21:52:36.854-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : Starting API call to fetch breed by id 1 at url 
+2024-03-05T21:52:36.854-05:00  INFO 14248 --- [    Test worker] c.x.s.infrastructure.out.rest.BreedApi   : API call to fetch breed by id completed. Body: com.xpergroup.servicesCats.application.mappers.dto.BreedDTO@1c41931a Status: 200 OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

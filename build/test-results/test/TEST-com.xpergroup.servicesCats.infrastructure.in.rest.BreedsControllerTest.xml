@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xpergroup.servicesCats.infrastructure.in.rest.BreedsControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-03-06T02:52:36" hostname="DESKTOP-0TSEDKM" time="0.133">
+  <properties/>
+  <testcase name="testBreedQueryParams_Success()" classname="com.xpergroup.servicesCats.infrastructure.in.rest.BreedsControllerTest" time="0.123"/>
+  <testcase name="testBreedsAll_Success()" classname="com.xpergroup.servicesCats.infrastructure.in.rest.BreedsControllerTest" time="0.003"/>
+  <testcase name="testBreedById_ExistingId()" classname="com.xpergroup.servicesCats.infrastructure.in.rest.BreedsControllerTest" time="0.005"/>
+  <system-out><![CDATA[2024-03-05T21:52:36.680-05:00  INFO 14248 --- [    Test worker] c.x.s.i.in.rest.BreedsController         : BreedsController initialized with UseCases.
+2024-03-05T21:52:36.680-05:00  INFO 14248 --- [    Test worker] c.x.s.i.in.rest.BreedsController         : Received request for breed search with query: Siamese and attachImage: 1.
+2024-03-05T21:52:36.691-05:00  INFO 14248 --- [    Test worker] c.x.s.i.in.rest.BreedsController         : BreedsController initialized with UseCases.
+2024-03-05T21:52:36.692-05:00  INFO 14248 --- [    Test worker] c.x.s.i.in.rest.BreedsController         : Received request for all breeds.
+2024-03-05T21:52:36.697-05:00  INFO 14248 --- [    Test worker] c.x.s.i.in.rest.BreedsController         : BreedsController initialized with UseCases.
+2024-03-05T21:52:36.697-05:00  INFO 14248 --- [    Test worker] c.x.s.i.in.rest.BreedsController         : Received request for breed by ID: 1.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

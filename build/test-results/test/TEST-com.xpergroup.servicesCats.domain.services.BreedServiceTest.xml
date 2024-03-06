@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xpergroup.servicesCats.domain.services.BreedServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-03-06T02:52:36" hostname="DESKTOP-0TSEDKM" time="0.155">
+  <properties/>
+  <testcase name="testBreedById_NonExistingId()" classname="com.xpergroup.servicesCats.domain.services.BreedServiceTest" time="0.142"/>
+  <testcase name="testBreedSearch_Success()" classname="com.xpergroup.servicesCats.domain.services.BreedServiceTest" time="0.003"/>
+  <testcase name="testBreedsAllSuccess()" classname="com.xpergroup.servicesCats.domain.services.BreedServiceTest" time="0.003"/>
+  <testcase name="testBreedById_ExistingId()" classname="com.xpergroup.servicesCats.domain.services.BreedServiceTest" time="0.003"/>
+  <system-out><![CDATA[2024-03-05T21:52:36.548-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Fetching breed by ID: nonexistent.
+2024-03-05T21:52:36.549-05:00  WARN 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Breed with ID nonexistent not found.
+2024-03-05T21:52:36.553-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Searching breeds with search: Siamese and searchImage: 1.
+2024-03-05T21:52:36.553-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Found 2 breeds matching the search.
+2024-03-05T21:52:36.557-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Fetching all breeds.
+2024-03-05T21:52:36.557-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Fetched 2 breeds successfully.
+2024-03-05T21:52:36.561-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Fetching breed by ID: 1.
+2024-03-05T21:52:36.562-05:00  INFO 14248 --- [    Test worker] c.x.s.domain.services.BreedService       : Fetched breed by ID 1: com.xpergroup.servicesCats.domain.models.Breed@41538150
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
